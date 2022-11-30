@@ -92,32 +92,3 @@ public class Problema3 {
         }
     }
 }
-
-/* }
-        if (trajes == 2) {
-            
-            descuento = subtotal * 0.25;
-            total = subtotal - descuento;          
-            System.out.printf("El subtotal a pagar es de: %.2f\nCon un descuento de: %.2f\nSu total es de: %.2f\n",
-                    subtotal, descuento, total);
-            
-
-        }
-        if (trajes == 3) {
-            
-            descuento = subtotal * 0.40;
-            total = subtotal - descuento;          
-            System.out.printf("El subtotal a pagar es de: %.2f\nCon un descuento de: %.2f\nSu total es de: %.2f\n",
-                    subtotal, descuento, total);
-            
-
-        }
-        if (trajes > 3) {
-            
-            descuento = subtotal * 0.50;
-            total = subtotal - descuento;          
-            System.out.printf("El subtotal a pagar es de: %.2f\nCon un descuento de: %.2f\nSu total es de: %.2f\n",
-                    subtotal, descuento, total);
-            
-
-        }   */

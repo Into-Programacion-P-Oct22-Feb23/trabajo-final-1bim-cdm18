@@ -36,22 +36,23 @@ public class Problema4 {
         System.out.println("Ingrese el tercer numero: ");
         c = entrada.nextInt();
         mayor = 0;
+        if (a == b || b == a || a == c || c == a || c == b  || b == c ){
+            System.out.println("Error, hay numeros iguales");
+        }else  {   
             if (a > b & a > c) {
                 mayor = a;
                 System.out.println("El numero mayor es: " + mayor);
-        }
+            }
             if (b > a & b > c) {
                 mayor = b;
                 System.out.println("El numero mayor es: " + mayor);
-        }
+            }
             if (c > a & c > a) {
                 mayor = c;
                 System.out.println("El numero mayor es: " + mayor);
-        }
-        System.out.println("Error, hay numeros iguales");
-
-    }
+            }
+        } 
+     }
 }
-
 
 
